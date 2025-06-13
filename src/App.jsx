@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 // Page Imports
 import LeafletMap from './pages/LeafletMap';
 import HomePage from './pages/HomePage';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <>
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<HomePage/>} />
@@ -17,8 +19,6 @@ function App() {
       </Router>
     </>
   );
-}
-
-function NavBar() {}
+};
 
 export default App;
