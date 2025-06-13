@@ -1,3 +1,5 @@
+// Tutorial https://www.sitepoint.com/creating-a-navbar-in-react/
+
 import React from 'react';
 import './Navbar.css';
 
