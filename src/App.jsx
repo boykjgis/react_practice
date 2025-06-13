@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 // Page Imports
 import LeafletMap from './pages/LeafletMap';
 import HomePage from './pages/HomePage';
-import Navbar from './Navbar';
+
+// Component Imports
+import Navbar from './components/Navbar';
 
 function App() {
   return (
